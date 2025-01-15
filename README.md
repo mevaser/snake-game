@@ -1,60 +1,60 @@
-🐍 Snake Game
+# 🐍 Snake Game
 
-A simple yet engaging implementation of the classic Snake Game using Python's turtle module. This project is ideal for practicing fundamental programming concepts like loops, functions, and game development logic.
+A complete and engaging implementation of the classic Snake Game using Python's `turtle` module. This project demonstrates modular design and the application of Object-Oriented Programming (OOP) principles.
 
-📜 Description
+## 📜 Description
 
 The Snake Game is a timeless arcade game where the player controls a snake to collect food while avoiding collisions with itself and the screen boundaries. As the snake eats, it grows longer, making the game progressively more challenging.
 
-This version of the game is built entirely with Python and the turtle module, demonstrating basic concepts of object-oriented programming (OOP) and game mechanics.
+This project features a modular design with separate classes for the snake, food, and scoreboard, ensuring clean and maintainable code.
 
-🚀 Features
+## 🚀 Features
 
-Dynamic Gameplay: The snake grows longer as it eats.
+- **Dynamic Gameplay**: The snake grows longer as it eats.
+- **Score Tracking**: Displays the current score and high score.
+- **Collision Detection**: Ends the game when the snake collides with itself or the walls.
+- **Modular Design**: Organized code with `Snake`, `Food`, and `Scoreboard` classes.
+- **Customizable**: Easily modify colors, speed, and screen size.
 
-Simple Controls: Use the keyboard to change the snake's direction.
+## 📂 Project Structure
 
-Collision Detection: Game over if the snake hits itself or the boundaries.
-
-Customizable: Modify colors, speed, and screen size easily.
-
-📂 Project Structure
-
-SnakeGame/
+```
+snake-game/
 │
-├── main.py        # Main game logic
-├── README.md      # Project description
+├── main.py         # Main game logic
+├── snake.py        # Snake class implementation
+├── food.py         # Food class implementation
+├── scoreboard.py   # Scoreboard class implementation
+├── README.md       # Project description
+```
 
-🛠️ Requirements
+## 🛠️ Requirements
 
-Python 3.x
+- Python 3.x
+- `turtle` module (built into Python)
 
-turtle module (built into Python)
+## ▶️ How to Run
 
-▶️ How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mevaser/snake-game.git
+   cd snake-game
+   ```
+2. Run the `main.py` file:
+   ```bash
+   python main.py
+   ```
 
-Clone the repository:
+## 🎮 Controls
 
-git clone https://github.com/mevaser/snake-game.git
-cd snake-game
+- **Arrow Keys**: Move the snake up, down, left, or right.
 
-Run the main.py file:
+## 🌟 Future Improvements
 
-python main.py
+- Add sound effects for better user engagement.
+- Introduce difficulty levels or obstacles.
+- Implement a multiplayer mode.
 
-🎮 Controls
-
-Arrow Keys: Move the snake up, down, left, or right.
-
-🌟 Future Improvements
-
-Add more levels or difficulty settings.
-
-Implement a scoring system.
-
-Introduce obstacles for increased challenge.
-
-
-Disclaimer
+## 📜 Disclaimer
 
 This project was created as part of the "100 Days of Code: The Complete Python Pro Bootcamp" course on Udemy. The code is shared for educational purposes and to document my learning journey. Full solutions and rights are owned by the course instructor.
