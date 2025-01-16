@@ -1,12 +1,15 @@
 🐍 Snake Game
+
 A complete and engaging implementation of the classic Snake Game using Python's turtle module. This project demonstrates modular design and the application of Object-Oriented Programming (OOP) principles.
 
 📜 Description
+
 The Snake Game is a timeless arcade game where the player controls a snake to collect food while avoiding collisions with itself and the screen boundaries. As the snake eats, it grows longer, making the game progressively more challenging.
 
 This project features a modular design with separate classes for the snake, food, and scoreboard, ensuring clean and maintainable code.
 
 🚀 Features
+
 Dynamic Gameplay: The snake grows longer as it eats.
 Score Tracking: Displays the current score and high score.
 Collision Detection: Ends the game when the snake collides with itself or the walls.
